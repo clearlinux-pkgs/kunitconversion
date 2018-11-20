@@ -6,7 +6,7 @@
 #
 Name     : kunitconversion
 Version  : 5.52.0
-Release  : 7
+Release  : 8
 URL      : https://download.kde.org/stable/frameworks/5.52/kunitconversion-5.52.0.tar.xz
 Source0  : https://download.kde.org/stable/frameworks/5.52/kunitconversion-5.52.0.tar.xz
 Source99 : https://download.kde.org/stable/frameworks/5.52/kunitconversion-5.52.0.tar.xz.sig
@@ -28,14 +28,6 @@ KUnitConversion provides functions to convert values in different physical
 units. It supports converting different prefixes (e.g. kilo, mega, giga) as
 well as converting between different unit systems (e.g. liters, gallons). The
 following areas are supported:
-
-%package abi
-Summary: abi components for the kunitconversion package.
-Group: Default
-
-%description abi
-abi components for the kunitconversion package.
-
 
 %package dev
 Summary: dev components for the kunitconversion package.
@@ -80,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1541872366
+export SOURCE_DATE_EPOCH=1542745223
 mkdir -p clr-build
 pushd clr-build
 %cmake ..
@@ -88,7 +80,7 @@ make  %{?_smp_mflags} VERBOSE=1
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1541872366
+export SOURCE_DATE_EPOCH=1542745223
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kunitconversion
 cp COPYING.LIB %{buildroot}/usr/share/package-licenses/kunitconversion/COPYING.LIB
@@ -99,10 +91,6 @@ popd
 
 %files
 %defattr(-,root,root,-)
-
-%files abi
-%defattr(-,root,root,-)
-/usr/share/abi/libKF5UnitConversion.so.5.52.0.abi
 
 %files dev
 %defattr(-,root,root,-)

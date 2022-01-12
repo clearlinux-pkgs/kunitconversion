@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kunitconversion
-Version  : 5.89.0
-Release  : 44
-URL      : https://download.kde.org/stable/frameworks/5.89/kunitconversion-5.89.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.89/kunitconversion-5.89.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.89/kunitconversion-5.89.0.tar.xz.sig
+Version  : 5.90.0
+Release  : 45
+URL      : https://download.kde.org/stable/frameworks/5.90/kunitconversion-5.90.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.90/kunitconversion-5.90.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.90/kunitconversion-5.90.0.tar.xz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : CC0-1.0 LGPL-2.0
@@ -21,7 +21,6 @@ BuildRequires : buildreq-cmake
 BuildRequires : buildreq-kde
 BuildRequires : extra-cmake-modules-data
 BuildRequires : ki18n-dev
-BuildRequires : qtbase-dev mesa-dev
 
 %description
 # KUnitConversion
@@ -79,15 +78,15 @@ locales components for the kunitconversion package.
 
 
 %prep
-%setup -q -n kunitconversion-5.89.0
-cd %{_builddir}/kunitconversion-5.89.0
+%setup -q -n kunitconversion-5.90.0
+cd %{_builddir}/kunitconversion-5.90.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1639685847
+export SOURCE_DATE_EPOCH=1642016828
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -103,11 +102,11 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1639685847
+export SOURCE_DATE_EPOCH=1642016828
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kunitconversion
-cp %{_builddir}/kunitconversion-5.89.0/LICENSES/CC0-1.0.txt %{buildroot}/usr/share/package-licenses/kunitconversion/82da472f6d00dc5f0a651f33ebb320aa9c7b08d0
-cp %{_builddir}/kunitconversion-5.89.0/LICENSES/LGPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kunitconversion/20079e8f79713dce80ab09774505773c926afa2a
+cp %{_builddir}/kunitconversion-5.90.0/LICENSES/CC0-1.0.txt %{buildroot}/usr/share/package-licenses/kunitconversion/82da472f6d00dc5f0a651f33ebb320aa9c7b08d0
+cp %{_builddir}/kunitconversion-5.90.0/LICENSES/LGPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kunitconversion/20079e8f79713dce80ab09774505773c926afa2a
 pushd clr-build
 %make_install
 popd
@@ -142,7 +141,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5UnitConversion.so.5
-/usr/lib64/libKF5UnitConversion.so.5.89.0
+/usr/lib64/libKF5UnitConversion.so.5.90.0
 
 %files license
 %defattr(0644,root,root,0755)

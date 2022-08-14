@@ -1,5 +1,5 @@
 PKG_NAME := kunitconversion
-URL = https://download.kde.org/stable/frameworks/5.96/kunitconversion-5.96.0.tar.xz
+URL = https://download.kde.org/stable/frameworks/5.97/kunitconversion-5.97.0.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common

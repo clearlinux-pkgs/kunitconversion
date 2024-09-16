@@ -1,101 +1,15 @@
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::syncConversionTable(std::chrono::duration<long, std::ratio<1l, 1l> >)
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::UnitCategory(KUnitConversion::UnitCategory const&)
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::UnitCategory()
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::UnitCategory(KUnitConversion::UnitCategory const&)
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::UnitCategory()
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::~UnitCategory()
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::~UnitCategory()
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::operator=(KUnitConversion::UnitCategory&&)
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::operator=(KUnitConversion::UnitCategory const&)
-libKF6UnitConversion.so.6:KUnitConversion::Unit::Unit(KUnitConversion::Unit const&)
-libKF6UnitConversion.so.6:KUnitConversion::Unit::Unit()
-libKF6UnitConversion.so.6:KUnitConversion::Unit::Unit(KUnitConversion::Unit const&)
-libKF6UnitConversion.so.6:KUnitConversion::Unit::Unit()
-libKF6UnitConversion.so.6:KUnitConversion::Unit::~Unit()
-libKF6UnitConversion.so.6:KUnitConversion::Unit::~Unit()
-libKF6UnitConversion.so.6:KUnitConversion::Unit::operator=(KUnitConversion::Unit&&)
-libKF6UnitConversion.so.6:KUnitConversion::Unit::operator=(KUnitConversion::Unit const&)
-libKF6UnitConversion.so.6:KUnitConversion::Value::round(unsigned int)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value(QVariant const&, QString const&)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value(KUnitConversion::Value const&)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value(double, KUnitConversion::UnitId)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value(double, QString const&)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value(double, KUnitConversion::Unit const&)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value()
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value(QVariant const&, QString const&)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value(KUnitConversion::Value const&)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value(double, KUnitConversion::UnitId)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value(double, QString const&)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value(double, KUnitConversion::Unit const&)
-libKF6UnitConversion.so.6:KUnitConversion::Value::Value()
-libKF6UnitConversion.so.6:KUnitConversion::Value::~Value()
-libKF6UnitConversion.so.6:KUnitConversion::Value::~Value()
-libKF6UnitConversion.so.6:KUnitConversion::Value::operator=(KUnitConversion::Value const&)
-libKF6UnitConversion.so.6:KUnitConversion::Currency::lastConversionTableUpdate()
-libKF6UnitConversion.so.6:KUnitConversion::Converter::Converter(KUnitConversion::Converter const&)
 libKF6UnitConversion.so.6:KUnitConversion::Converter::Converter()
-libKF6UnitConversion.so.6:KUnitConversion::Converter::Converter(KUnitConversion::Converter const&)
-libKF6UnitConversion.so.6:KUnitConversion::Converter::Converter()
-libKF6UnitConversion.so.6:KUnitConversion::Converter::~Converter()
-libKF6UnitConversion.so.6:KUnitConversion::Converter::~Converter()
 libKF6UnitConversion.so.6:KUnitConversion::Converter::operator=(KUnitConversion::Converter&&)
-libKF6UnitConversion.so.6:KUnitConversion::Converter::operator=(KUnitConversion::Converter const&)
-libKF6UnitConversion.so.6:KUnitConversion::UpdateJob::qt_metacall(QMetaObject::Call, int, void**)
-libKF6UnitConversion.so.6:KUnitConversion::UpdateJob::qt_metacast(char const*)
+libKF6UnitConversion.so.6:KUnitConversion::Converter::~Converter()
+libKF6UnitConversion.so.6:KUnitConversion::Currency::lastConversionTableUpdate()
+libKF6UnitConversion.so.6:KUnitConversion::Unit::Unit()
+libKF6UnitConversion.so.6:KUnitConversion::Unit::operator=(KUnitConversion::Unit&&)
+libKF6UnitConversion.so.6:KUnitConversion::Unit::~Unit()
+libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::UnitCategory()
+libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::operator=(KUnitConversion::UnitCategory&&)
+libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::~UnitCategory()
+libKF6UnitConversion.so.6:KUnitConversion::UpdateJob::UpdateJob(QNetworkReply*)
 libKF6UnitConversion.so.6:KUnitConversion::UpdateJob::finished()
-libKF6UnitConversion.so.6:KUnitConversion::UpdateJob::UpdateJob(QNetworkReply*)
-libKF6UnitConversion.so.6:KUnitConversion::UpdateJob::UpdateJob(QNetworkReply*)
 libKF6UnitConversion.so.6:KUnitConversion::UpdateJob::~UpdateJob()
-libKF6UnitConversion.so.6:KUnitConversion::UpdateJob::~UpdateJob()
-libKF6UnitConversion.so.6:KUnitConversion::UpdateJob::~UpdateJob()
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::defaultUnit() const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::description() const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::mostCommonUnits() const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::hasOnlineConversionTable() const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::id() const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::name() const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::unit(KUnitConversion::UnitId) const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::unit(QString const&) const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::units() const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::isNull() const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::convert(KUnitConversion::Value const&, KUnitConversion::UnitId) const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::convert(KUnitConversion::Value const&, QString const&) const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::convert(KUnitConversion::Value const&, KUnitConversion::Unit const&) const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::hasUnit(QString const&) const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::allUnits() const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::operator==(KUnitConversion::UnitCategory const&) const
-libKF6UnitConversion.so.6:KUnitConversion::UnitCategory::operator!=(KUnitConversion::UnitCategory const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::categoryId() const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::description() const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::fromDefault(double) const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::toSymbolString(double, int, char, int, QChar const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::id() const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::isNull() const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::symbol() const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::isValid() const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::category() const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::toString(double, int, char, int, QChar const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::toDefault(double) const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::operator==(KUnitConversion::Unit const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Unit::operator!=(KUnitConversion::Unit const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Value::toSymbolString(int, char, int, QChar const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Value::unit() const
-libKF6UnitConversion.so.6:KUnitConversion::Value::isNull() const
-libKF6UnitConversion.so.6:KUnitConversion::Value::number() const
-libKF6UnitConversion.so.6:KUnitConversion::Value::isValid() const
-libKF6UnitConversion.so.6:KUnitConversion::Value::toString(int, char, int, QChar const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Value::convertTo(KUnitConversion::UnitId) const
-libKF6UnitConversion.so.6:KUnitConversion::Value::convertTo(QString const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Value::convertTo(KUnitConversion::Unit const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Value::operator==(KUnitConversion::Value const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Value::operator!=(KUnitConversion::Value const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Converter::categories() const
-libKF6UnitConversion.so.6:KUnitConversion::Converter::categoryForUnit(QString const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Converter::unit(KUnitConversion::UnitId) const
-libKF6UnitConversion.so.6:KUnitConversion::Converter::unit(QString const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Converter::convert(KUnitConversion::Value const&, KUnitConversion::UnitId) const
-libKF6UnitConversion.so.6:KUnitConversion::Converter::convert(KUnitConversion::Value const&, QString const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Converter::convert(KUnitConversion::Value const&, KUnitConversion::Unit const&) const
-libKF6UnitConversion.so.6:KUnitConversion::Converter::category(KUnitConversion::CategoryId) const
-libKF6UnitConversion.so.6:KUnitConversion::Converter::category(QString const&) const
-libKF6UnitConversion.so.6:KUnitConversion::UpdateJob::metaObject() const
+libKF6UnitConversion.so.6:KUnitConversion::Value::Value()
+libKF6UnitConversion.so.6:KUnitConversion::Value::~Value()
